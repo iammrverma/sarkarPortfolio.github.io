@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from "react";
-import Typed from "typed.js";
+// import Typed from "typed.js"; 
+// there is no typed.js apart from this import using "./component-name" because "component-name" will not work in production
+// if you create a file called typed.js in the same folder import it like this `import Typed from './typed.js'`
 
 const Home = () => {
   const el = useRef(null);
